@@ -1,0 +1,82 @@
+﻿<!--
+	Radio Vibra Maturín ¡Estremece tus sentidos!
+	www.radiovibramaturin.com
+	Design by: Jesús Aponte	| @jesusfcoaponte
+-->
+<head>
+	<title>.::Player - Radio Vibra Maturín::.</title>
+	<link rel="shortcut icon" type="image/png" href="">
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="../css/main.css"/>
+	<link rel="stylesheet" href="../css/fonts-styles.css"/>
+	<link rel="preload" href="../js/jquery-3.2.1.min.js" as="script">
+	<link rel="preload" href="../js/lunaplayer-full.js" as="script">
+	<link rel="preload" href="../img/background.webp" as="image">
+	<link rel="preload" href="../img/cover.webp" as="image">
+	<link rel="preload" href="../img/cover.png" as="image">
+</head>
+<body style="background: url(../img/background.webp) bottom / cover no-repeat;">
+
+<center><div id="lunaradio" style="width:100%; height:100vh;">Cargando Vibra Radio...</div></center>
+	<script src="../js/jquery-3.2.1.min.js"></script>
+	<script src="../js/lunaplayer-full.js"></script>
+	<script>
+	jQuery(document).ready(function($) {
+		$("#lunaradio").lunaradio({
+			token: "600lIPN",
+			userinterface: "big",
+		    fontcolor: "#FFFFFF",
+		    hightlightcolor: "#06ff00",
+		    fontname: "Be Vietnam",
+		    googlefont: "Be Vietnam:wght@100",
+		    fontratio: "0.3",
+		    radioname: "Radio Vibra Maturín ¡Estremece tus sentidos!",
+		    scroll: "true",
+		    coverimage: "../img/cover.webp",
+		    onlycoverimage: "false",
+		    usevisualizer: "real",
+		    coverstyle: "animated",
+		    visualizertype: "1",
+		    multicolorvisualizer: "true",
+		    color1: "#FFFFFF",
+		    color2: "#FFFFFF",
+		    color3: "#FFFFFF",
+		    color4: "#FFFFFF",
+		    itunestoken: "",
+		    corsproxy: "",
+		    streamurl:"https://radio.mipanel.stream:6750",
+		    ownmetadataurl: "https://radio.mipanel.stream:6750",
+		    streamtype: "shoutcast2",
+		    shoutcastpath: "/stream",
+		    shoutcastid: "1",
+		    metadatainterval: "5000",
+		    volume: "100",
+		    debug: "false",
+		    usestreamcorsproxy: "false",
+		    autoplay:"true",
+		});
+	});
+	</script>
+
+	<!-- widget-reloj 
+	<div class="widget-reloj">
+		<h4></h4>
+		<iframe allowtransparency="yes" border="0" frameborder="no" height="100%" width="100%" marginheight="0px" marginwidth="0" scrolling="no" src="../iframe/reloj.html" style="width:550px; height:150px; min-width: 550px;"></iframe>
+	</div>-->
+	
+	<script language="JavaScript" type="text/javascript">
+	function click(){
+	if(event.button==2){
+	alert('Radio Vibra Maturín ¡Estremece tus sentidos!');
+	}
+	}
+	document.onmousedown=click
+	//-->
+	</script>
+</body>
+<!--
+	Gracias por visitar
+	Radio Vibra Maturín ¡Estremece tus sentidos!
+	www.radiovibramaturin.com
+	Design by: Jesús Aponte	| @jesusfcoaponte
+-->
